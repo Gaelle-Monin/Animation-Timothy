@@ -41,7 +41,18 @@
           height: auto;
         }
 
+        h1 {
+            text-transform: uppercase;
+            color: #164676;
+            margin-bottom: 0.2em;
+            font-size: 36px;
+        }
 
+        p.subtitle {
+            font-size: 1em;
+            color: #858585;
+            margin: 0.3;
+        }
 
         @media (min-width: 768px) {
             #home-container {
@@ -57,45 +68,20 @@
                 grid-column: 3;
                 grid-row: 1;
             }
+
+            #heading {
+                font-size: 42px;
+            }
+
+            #subtitle {
+                font-size: 32px;
+            }
         }
 
-        h1 {
-            text-transform: uppercase;
-            color: #535353;
-            margin-bottom: 0.2em;
-        }
-
-        p.subtitle {
-            font-size: 1.4em;
-            color: #858585;
-            margin: 0.3;
-        }
-
-        .cta {
-            background-color: #6494C5;
-            padding-top: 20px;
-            padding-bottom: 20px;
-            padding-left: 32px;
-            padding-right: 32px;
-            color: #fff;
-            font-weight: bold;
-            display: inline-block;
-            border-radius: 5px;
-            text-decoration: none;
-            box-shadow: 0 0 0 0 rgba(9, 187, 233, .2);
-        }
-
-        .cta:hover,
-        .cta:focus {
-          -webkit-animation: pulse 1.25s infinite cubic-bezier(0.50, 0, 0, 1);
-          -moz-animation: pulse 1.25s infinite cubic-bezier(0.50, 0, 0, 1);
-          -ms-animation: pulse 1.25s infinite cubic-bezier(0.50, 0, 0, 1);
-          animation: pulse 1.25s infinite cubic-bezier(0.50, 0, 0, 1);
-        }
 
         .eye {
-          -webkit-animation: blink-1 0.6s 2s 2 both;
-  	              animation: blink-1 0.6s 2s 2 both;
+          -webkit-animation: blink-1 0.6s 3s 1 both;
+  	              animation: blink-1 0.6s 3s 1 both;
           }
 
           @-webkit-keyframes blink-1 {
