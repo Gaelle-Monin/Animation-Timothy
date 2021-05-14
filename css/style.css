@@ -94,8 +94,8 @@
         }
 
         .eye {
-          -webkit-animation: blink-1 0.6s 1s both;
-  	              animation: blink-1 0.6s 1s both;
+          -webkit-animation: blink-1 0.6s 2s 2 both;
+  	              animation: blink-1 0.6s 2s 2 both;
           }
 
           @-webkit-keyframes blink-1 {
